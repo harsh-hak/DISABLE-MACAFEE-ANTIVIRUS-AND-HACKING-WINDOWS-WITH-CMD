@@ -34,7 +34,7 @@ void setup()
 
   typeKey(KEY_RETURN);
 
-  delay(5000);
+  delay(21000);
 
   typeKey(KEY_TAB);
 
@@ -58,6 +58,10 @@ void setup()
 
   typeKey(KEY_TAB);
 
+  delay(50);
+  
+  typeKey(KEY_TAB);
+  
   delay(50);
 
   typeKey(KEY_RETURN);
