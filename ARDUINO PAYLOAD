@@ -27,44 +27,39 @@ void setup()
   Keyboard.releaseAll();
 
   delay(300);
-
-  Keyboard.print("macafee");
+Keyboard.print("macafee");
 
   delay(1000);
 
   typeKey(KEY_RETURN);
 
-  delay(21000);
+  delay(5000);
 
   typeKey(KEY_TAB);
 
-  delay(50);
-
-  typeKey(KEY_TAB);
-
-  delay(50);
-
-  typeKey(KEY_TAB);
-
-  delay(50);
-
-  typeKey(KEY_TAB);
-
-  delay(50);
-
-  typeKey(KEY_TAB);
-
-  delay(50);
-
-  typeKey(KEY_TAB);
-
-  delay(50);
-  
-  typeKey(KEY_TAB);
-  
   delay(50);
 
   typeKey(KEY_RETURN);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
+
+  delay(50);
+
+  typeKey(KEY_TAB);
 
   delay(50);
 
