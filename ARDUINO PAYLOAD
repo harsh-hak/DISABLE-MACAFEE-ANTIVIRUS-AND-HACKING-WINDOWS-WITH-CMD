@@ -39,6 +39,10 @@ Keyboard.print("macafee");
 
   delay(50);
 
+  typeKey(KEY_TAB);
+  
+   delay(50);
+
   typeKey(KEY_RETURN);
 
   delay(50);
